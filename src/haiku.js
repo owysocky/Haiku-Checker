@@ -10,11 +10,9 @@ export function count(line) {
       word = word.replace(/(?: [^laeiouy]es | ed | [^laeiouy]e)$/, '');
       word = word.replace(/^y/, '');
       counter += word.match(/[aeiouy]{1,2}/g).length;
-
     }
-
   });
-  console.log(counter);
+
  return counter;
 }
 
