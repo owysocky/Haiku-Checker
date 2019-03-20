@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </script>
+    <title>Haiku</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Haiku checker</h1>
+      <div class="row">
+        <div class="well col-xs-6">
+          <form id="haiku">
+            <br>
+            <label for="first">Enter first line:</label>
+            <input id="first" type="text" required>
+            <br>
+            <label for="second">Enter second line:</label>
+            <input id="second" type="text" required>
+            <br>
+            <label for="third">Enter third line:</label>
+            <input id="third" type="text" required>
+            <br>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div class="well col-xs-6">
+          <h2>Your result:</h2>
+          <h3><span id="result"></span></h3>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
